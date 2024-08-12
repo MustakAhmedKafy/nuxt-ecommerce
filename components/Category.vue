@@ -85,7 +85,7 @@ const menus = reactive([
         <li v-for="menu in menus" :key="menu.title" class="relative group">
           <NuxtLink :to="'/category/' + menu.id">
             <div
-              class="py-2 pe-2 hover:bg-gray-200 cursor-pointer flex justify-between items-center"
+              class="py-2 pe-2 ps-1 hover:bg-gray-200 cursor-pointer flex justify-between items-center"
               @mouseover="menu.isOpen = true"
               @mouseleave="menu.isOpen = false"
             >

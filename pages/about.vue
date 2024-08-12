@@ -113,11 +113,11 @@ const supports = [
 <template>
   <NuxtLayout name="home">
     <!-- about us banner -->
-    <div class="lg:ps-36 ps-4 md:pe-0 pe-4 w-full">
+    <div class="container">
       <div class="py-8 text-left">
         <Breadcrumb :crumbs="crumbs" />
       </div>
-      <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 items-center">
         <div>
           <h3 class="text-3xl font-semibold text-dark">Our Story</h3>
           <p class="pt-8">
@@ -172,7 +172,7 @@ const supports = [
       }" :modules="modules" class="mySwiper">
         <swiper-slide v-for="(member, index) in teamMembers" :key="index">
           <div class="pt-12 bg-light">
-            <img :src="member.image" alt="" class="mx-auto mb-4 w-52 h-80" />
+            <img :src="member.image" alt="" class="mx-auto mb-4 w-52 h-72" />
           </div>
           <div class="mt-4 space-y-3">
             <h3 class="text-xl font-bold">{{ member.name }}</h3>

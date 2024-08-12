@@ -5,13 +5,13 @@ const crumbs = [{ name: "Home", link: "/" }, { name: " Contact" }];
 <template>
   <!-- about us banner -->
   <NuxtLayout name="home">
-    <div class="lg:px-36 px-4 mb-20 w-full">
+    <div class="container mb-20">
       <div class="text-left py-4">
         <Breadcrumb :crumbs="crumbs" />
       </div>
       <div class="grid md:grid-cols-12 grid-cols-1 gap-6">
         <div class="md:col-span-4 col-span-12">
-          <div class="shadow p-6 rounded">
+          <div class="shadow p-6 rounded ">
             <!-- phone -->
             <div class="flex items-center gap-2">
               <span

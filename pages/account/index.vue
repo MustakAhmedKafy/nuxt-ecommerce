@@ -28,7 +28,7 @@ const invoices = ref([
 <template>
   <!-- about us banner -->
   <NuxtLayout name="home">
-    <div class="xl:px-36 px-4 mb-20 w-full">
+    <div class="mb-20 container">
       <div class="flex justify-between items-center py-4">
         <Breadcrumb :crumbs="crumbs" />
         <div>

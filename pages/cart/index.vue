@@ -43,7 +43,7 @@ console.log(carts.items);
 
 <template>
   <NuxtLayout name="home">
-    <div class="px-4 py-10 lg:px-36">
+    <div class="container py-10 ">
       <div class="py-2 text-left">
         <Breadcrumb :crumbs="crumbs" />
       </div>

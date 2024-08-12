@@ -132,7 +132,7 @@ const items = ref([
     <Meta name="description" content="This is product Description" />
   </Head>
   <NuxtLayout name="home">
-    <div class="xl:px-36 px-4 w-full">
+    <div class="container">
       <div>
         <Breadcrumb :crumbs="crumbs" />
       </div>

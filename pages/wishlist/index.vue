@@ -24,7 +24,7 @@ try {
 
 <template>
   <NuxtLayout name="home">
-    <div class="container relative p-4 mx-auto mt-20 md:p-8">
+    <div class="container relative mt-20 ">
       <div class="flex items-center justify-between mb-4">
         <div class="flex flex-row items-center gap-4">
           <h1 class="text-xl">Wishlist ({{ wishlists.items.length }})</h1>

@@ -92,7 +92,7 @@ const categories = ref([
 
 <template>
     <NuxtLayout name="home">
-        <div class="px-8 pb-10 min-h-screen mx-auto">
+        <div class="md:px-8 p-4 pb-10 min-h-screen mx-auto">
             <div class="py-4 text-left">
                 <Breadcrumb :crumbs="crumbs" />
             </div>
