@@ -37,7 +37,7 @@ module.exports = {
         desktop: "1200px",
         // => @media (min-width: 1280px) { ... }
 
-        "large-desktop": "1600px",
+        "large-desktop": "1400px",
         // => @media (min-width: 1600px) { ... }
       },
       colors: {

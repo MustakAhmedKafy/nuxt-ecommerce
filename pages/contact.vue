@@ -10,8 +10,8 @@ const crumbs = [{ name: "Home", link: "/" }, { name: " Contact" }];
         <Breadcrumb :crumbs="crumbs" />
       </div>
       <div class="grid md:grid-cols-12 grid-cols-1 gap-6">
-        <div class="md:col-span-4 col-span-12">
-          <div class="shadow p-6 rounded ">
+        <div class="md:col-span-4 min-h-72 col-span-12">
+          <div class="shadow h-full p-6 rounded ">
             <!-- phone -->
             <div class="flex items-center gap-2">
               <span
